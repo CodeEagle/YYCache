@@ -34,7 +34,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		106B5E3A1F1859DD00EC19F8 /* YYCache_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YYCache_macOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		106B5E3A1F1859DD00EC19F8 /* YYCache.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YYCache.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		106B5E3C1F1859DD00EC19F8 /* YYCache_macOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYCache_macOS.h; sourceTree = "<group>"; };
 		106B5E3D1F1859DD00EC19F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		106B5E4B1F185A3500EC19F8 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreFoundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -115,7 +115,7 @@
 			isa = PBXGroup;
 			children = (
 				D9D418F51BD0EFE300CD8EBF /* YYCache.framework */,
-				106B5E3A1F1859DD00EC19F8 /* YYCache_macOS.framework */,
+				106B5E3A1F1859DD00EC19F8 /* YYCache.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -192,7 +192,7 @@
 			);
 			name = "YYCache macOS";
 			productName = "YYCache macOS";
-			productReference = 106B5E3A1F1859DD00EC19F8 /* YYCache_macOS.framework */;
+			productReference = 106B5E3A1F1859DD00EC19F8 /* YYCache.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		D9D418F41BD0EFE300CD8EBF /* YYCache */ = {
@@ -320,7 +320,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.SelfStudio.YYCache-macOS";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = YYCache;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
@@ -357,7 +357,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.SelfStudio.YYCache-macOS";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = YYCache;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -503,6 +503,7 @@
 				106B5E401F1859DD00EC19F8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D9D418EF1BD0EFE300CD8EBF /* Build configuration list for PBXProject "YYCache" */ = {
 			isa = XCConfigurationList;
