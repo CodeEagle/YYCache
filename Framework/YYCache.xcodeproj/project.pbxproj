@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		106B5E3E1F1859DD00EC19F8 /* YYCache_macOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 106B5E3C1F1859DD00EC19F8 /* YYCache_macOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		106B5E421F1859ED00EC19F8 /* YYCache.h in Headers */ = {isa = PBXBuildFile; fileRef = D9D419031BD0F04000CD8EBF /* YYCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		106B5E431F1859ED00EC19F8 /* YYMemoryCache.h in Headers */ = {isa = PBXBuildFile; fileRef = D9D419091BD0F04000CD8EBF /* YYMemoryCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		106B5E441F1859ED00EC19F8 /* YYDiskCache.h in Headers */ = {isa = PBXBuildFile; fileRef = D9D419051BD0F04000CD8EBF /* YYDiskCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		106B5E451F1859ED00EC19F8 /* YYKVStorage.h in Headers */ = {isa = PBXBuildFile; fileRef = D9D419071BD0F04000CD8EBF /* YYKVStorage.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		106B5E461F1859F400EC19F8 /* YYCache.m in Sources */ = {isa = PBXBuildFile; fileRef = D9D419041BD0F04000CD8EBF /* YYCache.m */; };
+		106B5E471F1859F400EC19F8 /* YYMemoryCache.m in Sources */ = {isa = PBXBuildFile; fileRef = D9D4190A1BD0F04000CD8EBF /* YYMemoryCache.m */; };
+		106B5E481F1859F400EC19F8 /* YYDiskCache.m in Sources */ = {isa = PBXBuildFile; fileRef = D9D419061BD0F04000CD8EBF /* YYDiskCache.m */; };
+		106B5E491F1859F400EC19F8 /* YYKVStorage.m in Sources */ = {isa = PBXBuildFile; fileRef = D9D419081BD0F04000CD8EBF /* YYKVStorage.m */; };
+		106B5E4C1F185A4300EC19F8 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 106B5E4B1F185A3500EC19F8 /* CoreFoundation.framework */; };
+		106B5E4E1F185A5400EC19F8 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 106B5E4D1F185A4D00EC19F8 /* libsqlite3.tbd */; };
+		106B5E521F185A7200EC19F8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 106B5E511F185A6D00EC19F8 /* QuartzCore.framework */; };
 		D9D4190B1BD0F04000CD8EBF /* YYCache.h in Headers */ = {isa = PBXBuildFile; fileRef = D9D419031BD0F04000CD8EBF /* YYCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D9D4190C1BD0F04000CD8EBF /* YYCache.m in Sources */ = {isa = PBXBuildFile; fileRef = D9D419041BD0F04000CD8EBF /* YYCache.m */; };
 		D9D4190D1BD0F04000CD8EBF /* YYDiskCache.h in Headers */ = {isa = PBXBuildFile; fileRef = D9D419051BD0F04000CD8EBF /* YYDiskCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -22,6 +34,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		106B5E3A1F1859DD00EC19F8 /* YYCache_macOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YYCache_macOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		106B5E3C1F1859DD00EC19F8 /* YYCache_macOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YYCache_macOS.h; sourceTree = "<group>"; };
+		106B5E3D1F1859DD00EC19F8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		106B5E4B1F185A3500EC19F8 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/CoreFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		106B5E4D1F185A4D00EC19F8 /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/usr/lib/libsqlite3.tbd; sourceTree = DEVELOPER_DIR; };
+		106B5E511F185A6D00EC19F8 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
 		D9D418F51BD0EFE300CD8EBF /* YYCache.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = YYCache.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9D419001BD0EFFF00CD8EBF /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D9D419031BD0F04000CD8EBF /* YYCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYCache.h; sourceTree = "<group>"; };
@@ -39,6 +57,16 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		106B5E361F1859DD00EC19F8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				106B5E521F185A7200EC19F8 /* QuartzCore.framework in Frameworks */,
+				106B5E4E1F185A5400EC19F8 /* libsqlite3.tbd in Frameworks */,
+				106B5E4C1F185A4300EC19F8 /* CoreFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D9D418F11BD0EFE300CD8EBF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -53,12 +81,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		106B5E3B1F1859DD00EC19F8 /* YYCache macOS */ = {
+			isa = PBXGroup;
+			children = (
+				106B5E3C1F1859DD00EC19F8 /* YYCache_macOS.h */,
+				106B5E3D1F1859DD00EC19F8 /* Info.plist */,
+			);
+			path = "YYCache macOS";
+			sourceTree = "<group>";
+		};
+		106B5E4A1F185A3500EC19F8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				106B5E511F185A6D00EC19F8 /* QuartzCore.framework */,
+				106B5E4D1F185A4D00EC19F8 /* libsqlite3.tbd */,
+				106B5E4B1F185A3500EC19F8 /* CoreFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		D9D418EB1BD0EFE300CD8EBF = {
 			isa = PBXGroup;
 			children = (
 				D9D419021BD0F04000CD8EBF /* YYCache */,
 				D9D419131BD0F04C00CD8EBF /* Supporting Files */,
+				106B5E3B1F1859DD00EC19F8 /* YYCache macOS */,
 				D9D418F61BD0EFE300CD8EBF /* Products */,
+				106B5E4A1F185A3500EC19F8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -66,6 +115,7 @@
 			isa = PBXGroup;
 			children = (
 				D9D418F51BD0EFE300CD8EBF /* YYCache.framework */,
+				106B5E3A1F1859DD00EC19F8 /* YYCache_macOS.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,6 +151,18 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		106B5E371F1859DD00EC19F8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				106B5E441F1859ED00EC19F8 /* YYDiskCache.h in Headers */,
+				106B5E3E1F1859DD00EC19F8 /* YYCache_macOS.h in Headers */,
+				106B5E431F1859ED00EC19F8 /* YYMemoryCache.h in Headers */,
+				106B5E421F1859ED00EC19F8 /* YYCache.h in Headers */,
+				106B5E451F1859ED00EC19F8 /* YYKVStorage.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D9D418F21BD0EFE300CD8EBF /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -115,6 +177,24 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		106B5E391F1859DD00EC19F8 /* YYCache macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 106B5E411F1859DD00EC19F8 /* Build configuration list for PBXNativeTarget "YYCache macOS" */;
+			buildPhases = (
+				106B5E351F1859DD00EC19F8 /* Sources */,
+				106B5E361F1859DD00EC19F8 /* Frameworks */,
+				106B5E371F1859DD00EC19F8 /* Headers */,
+				106B5E381F1859DD00EC19F8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "YYCache macOS";
+			productName = "YYCache macOS";
+			productReference = 106B5E3A1F1859DD00EC19F8 /* YYCache_macOS.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		D9D418F41BD0EFE300CD8EBF /* YYCache */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D9D418FD1BD0EFE300CD8EBF /* Build configuration list for PBXNativeTarget "YYCache" */;
@@ -142,6 +222,10 @@
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = ibireme;
 				TargetAttributes = {
+					106B5E391F1859DD00EC19F8 = {
+						CreatedOnToolsVersion = 9.0;
+						DevelopmentTeam = L5W9FHSX92;
+					};
 					D9D418F41BD0EFE300CD8EBF = {
 						CreatedOnToolsVersion = 7.0;
 					};
@@ -160,11 +244,19 @@
 			projectRoot = "";
 			targets = (
 				D9D418F41BD0EFE300CD8EBF /* YYCache */,
+				106B5E391F1859DD00EC19F8 /* YYCache macOS */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		106B5E381F1859DD00EC19F8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D9D418F31BD0EFE300CD8EBF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -175,6 +267,17 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		106B5E351F1859DD00EC19F8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				106B5E491F1859F400EC19F8 /* YYKVStorage.m in Sources */,
+				106B5E481F1859F400EC19F8 /* YYDiskCache.m in Sources */,
+				106B5E461F1859F400EC19F8 /* YYCache.m in Sources */,
+				106B5E471F1859F400EC19F8 /* YYMemoryCache.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		D9D418F01BD0EFE300CD8EBF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -189,6 +292,79 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		106B5E3F1F1859DD00EC19F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = L5W9FHSX92;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "YYCache macOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SelfStudio.YYCache-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		106B5E401F1859DD00EC19F8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = L5W9FHSX92;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "YYCache macOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.SelfStudio.YYCache-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
 		D9D418FB1BD0EFE300CD8EBF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -320,6 +496,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		106B5E411F1859DD00EC19F8 /* Build configuration list for PBXNativeTarget "YYCache macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				106B5E3F1F1859DD00EC19F8 /* Debug */,
+				106B5E401F1859DD00EC19F8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		D9D418EF1BD0EFE300CD8EBF /* Build configuration list for PBXProject "YYCache" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
