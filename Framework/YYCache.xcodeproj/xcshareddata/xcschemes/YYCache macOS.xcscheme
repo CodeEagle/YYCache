@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "106B5E391F1859DD00EC19F8"
-               BuildableName = "YYCache_macOS.framework"
+               BuildableName = "YYCache.framework"
                BlueprintName = "YYCache macOS"
                ReferencedContainer = "container:YYCache.xcodeproj">
             </BuildableReference>
@@ -48,7 +48,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "106B5E391F1859DD00EC19F8"
-            BuildableName = "YYCache_macOS.framework"
+            BuildableName = "YYCache.framework"
             BlueprintName = "YYCache macOS"
             ReferencedContainer = "container:YYCache.xcodeproj">
          </BuildableReference>
@@ -66,7 +66,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "106B5E391F1859DD00EC19F8"
-            BuildableName = "YYCache_macOS.framework"
+            BuildableName = "YYCache.framework"
             BlueprintName = "YYCache macOS"
             ReferencedContainer = "container:YYCache.xcodeproj">
          </BuildableReference>
